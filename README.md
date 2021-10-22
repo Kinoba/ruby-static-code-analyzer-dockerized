@@ -15,6 +15,7 @@ For now this image is able to run:
   - rubocop-rails
   - rubocop-checkstyle_formatter
   - rubocop-performance
+  - rubocop-rspec
 - Rubycritic
 
 ## Contribute
