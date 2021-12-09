@@ -13,6 +13,7 @@ For now this image is able to run:
 - Brakeman
 - Rubocop
   - rubocop-rails
+  - rubocop-rspec
   - rubocop-checkstyle_formatter
   - rubocop-performance
   - rubocop-rspec
