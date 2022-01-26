@@ -11,6 +11,7 @@ docker run --rm -v $(pwd):/app kinoba/ruby-static-code-analyzer [static tool]
 For now this image is able to run:
 
 - Brakeman
+- Danger
 - Rubocop
   - rubocop-rails
   - rubocop-rspec

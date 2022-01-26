@@ -1,10 +1,11 @@
-FROM ruby:2.7-buster
+FROM ruby:2.7-bullseye
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US.UTF-8
 
 ARG brakeman_version=5.1.1
+ARG danger_version=8.4.2
 ARG rubycritic_version=4.6.1
 ARG rubocop_version=1.22.1
 ARG rubocop_rspec_version=2.5.0
@@ -18,6 +19,7 @@ USER rubyman
 
 Run gem install \
     brakeman:${brakeman_version} \
+    danger:${danger_version} \
     rubycritic:${rubycritic_version} \
     rubocop:${rubocop_version} \
     rubocop-rspec:${rubocop_rspec_version} \
