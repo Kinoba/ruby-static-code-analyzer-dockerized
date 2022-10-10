@@ -2,7 +2,7 @@
 
 ## Usage
 
-```
+```bash
 docker run --rm -v $(pwd):/app kinoba/ruby-static-code-analyzer [static tool]
 ```
 
@@ -22,8 +22,9 @@ For now this image is able to run:
 
 ## Contribute
 
-```
-docker build . -t kinoba/ruby-static-code-analyzer
+```bash
+DOCKER_DEFAULT_PLATFORM=linux/amd64 docker build . -t kinoba/ruby-static-code-analyzer
+docker push kinoba/ruby-static-code-analyzer
 ```
 
 ## TODO
