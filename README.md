@@ -28,4 +28,3 @@ docker push kinoba/ruby-static-code-analyzer
 ```
 
 ## TODO
-

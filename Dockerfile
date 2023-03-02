@@ -1,10 +1,10 @@
-FROM ruby:3.1.2
+FROM ruby:3.2.1
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US.UTF-8
 
-ARG brakeman_version=5.3.1
+ARG brakeman_version=5.4.1
 ARG danger_version=9.0.0
 ARG rubycritic_version=4.7.0
 ARG rubocop_version=1.36
