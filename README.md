@@ -14,6 +14,7 @@ For now this image is able to run:
 - Danger
 - Rubocop
   - rubocop-rails
+  - rubocop-rails_config
   - rubocop-rspec
   - rubocop-checkstyle_formatter
   - rubocop-performance
