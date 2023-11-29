@@ -6,7 +6,8 @@ ENV LANGUAGE=en_US.UTF-8
 
 WORKDIR /app
 
-RUN useradd -ms /bin/bash rubyman
+RUN groupadd -g 7777 rubyman \
+  && useradd -m -s /bin/bash -u 7777 -g 7777 rubyman
 
 USER rubyman
 
