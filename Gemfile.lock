@@ -20,7 +20,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     base64 (0.2.0)
     bigdecimal (3.1.4)
-    brakeman (6.1.0)
+    brakeman (6.1.1)
+      racc
     claide (1.1.0)
     claide-plugins (0.9.2)
       cork
