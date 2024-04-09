@@ -4,11 +4,24 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "sunday"
+      time: "10:00"
+      timezone: "Europe/Paris"
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "sunday"
+      time: "10:00"
+      timezone: "Europe/Paris"
+    groups:
+      rubocop:
+        patterns:
+          - "rubocop*"
   - package-ecosystem: "github-actions"
     directory: "/.github/workflows"
     schedule:
       interval: "weekly"
+      day: "sunday"
+      time: "10:00"
+      timezone: "Europe/Paris"
