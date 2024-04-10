@@ -232,11 +232,14 @@ DEPENDENCIES
   brakeman
   danger
   rubocop
+  rubocop-capybara
   rubocop-checkstyle_formatter
+  rubocop-factory_bot
   rubocop-performance
   rubocop-rails
   rubocop-rails_config
   rubocop-rspec
+  rubocop-rspec_rails
   rubycritic
 
 RUBY VERSION
