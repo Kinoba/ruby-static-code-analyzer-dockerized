@@ -7,7 +7,7 @@ ruby '3.3.0'
 gem 'brakeman'
 gem 'danger'
 # TODO: Unpin version once this PR is released: https://github.com/rubocop/rubocop/pull/12826
-gem 'rubocop', '~> 1.63.1'
+gem 'rubocop', '~> 1.63.2'
 gem 'rubocop-capybara'
 gem 'rubocop-checkstyle_formatter'
 gem 'rubocop-factory_bot'
