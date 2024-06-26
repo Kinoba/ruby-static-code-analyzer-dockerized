@@ -12,13 +12,6 @@ For now this image is able to run:
 
 - Brakeman
 - Danger
-- Rubocop
-  - rubocop-rails
-  - rubocop-rails_config
-  - rubocop-rspec
-  - rubocop-checkstyle_formatter
-  - rubocop-performance
-  - rubocop-rspec
 - Rubycritic
 
 ## Contribute
