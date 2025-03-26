@@ -141,7 +141,7 @@ DEPENDENCIES
   rubycritic
 
 RUBY VERSION
-   ruby 3.3.6p108
+   ruby 3.4.2p28
 
 BUNDLED WITH
-   2.5.13
+   2.6.6
